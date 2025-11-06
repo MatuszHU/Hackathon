@@ -2,10 +2,28 @@
 ## Project for 2025 NeuroSparkEU Hackathon in Elche
 
 ### The team
-* Alicia Alonso – Universidad Miguel Hernández de Elche
-* Máté Majoros – Debreceni Egyetem
-* Stephanie Pittara – Karolinska Institutet
-* Anna Skyrda – Rheinische Friedrich-Wilhelms-Universität Bonn
+#### Alicia Alonso
+##### PhD Neuroscience
+Universidad Miguel Hernández de Elche (Spain)
+a.alonso@umh.es 
+
+
+#### Máté Majoros
+##### BSc Computer Science
+Debreceni Egyetem (Hungary)
+matusz@mailbox.unideb.hu 
+
+
+#### Stephanie Pittara
+##### MSc Molecular Techniques in Life Sciences
+Karolinska Institutet (Sweden)
+stephanie.pittara@stud.ki.se 
+
+
+#### Anna Skyrda
+##### MSc Psychology
+Rheinische Friedrich-Wilhelms-Universität Bonn (Germany)
+s55askyr@uni-bonn.de 
 
 ## Proposed Android App for EEG-Based Alexithymia Screening and Monitoring
 ### Alexithymia and Its EEG Correlates
