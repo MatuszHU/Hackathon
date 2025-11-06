@@ -1,0 +1,42 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:id="@+id/ic_brain"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="36dp"
+        android:src="@drawable/ic_brain"/>
+
+    <TextView
+        android:id="@+id/text_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="It seems you are feeling happy"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="28dp"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/img_happy"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/happy"/>
+
+    <TextView
+        android:id="@+id/text_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click to know more"
+        android:textSize="16sp"
+        android:layout_marginTop="40dp"
+        android:textColor="#F2990C"
+        android:gravity="center"/>
+</LinearLayout>

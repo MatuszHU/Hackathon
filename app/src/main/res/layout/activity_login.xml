@@ -1,6 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
 
+    <!-- Ikon -->
+    <ImageView
+        android:id="@+id/imageBrain"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_brain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Kérdés szöveg -->
+    <TextView
+        android:id="@+id/textQuestion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Are you a mental health professional?"
+        android:textSize="32sp"
+        android:textColor="#212121"
+        android:gravity="center"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintTop_toBottomOf="@id/imageBrain"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <!-- Gombok Layout: extra padding és spacing minden belső oldalra -->
+    <LinearLayout
+        android:id="@+id/buttonsLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:paddingLeft="32dp"
+        android:paddingRight="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        app:layout_constraintTop_toBottomOf="@id/textQuestion"
+        app:layout_constraintBottom_toTopOf="@id/buttonCalibrate"
+        android:layout_marginBottom="56dp">
+
+        <Button
+            android:id="@+id/btnYes"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:text="Yes"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:backgroundTint="#FFA726"
+            android:layout_weight="1"
+            android:layout_marginEnd="32dp"/>
+
+        <Button
+            android:id="@+id/btnNo"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:text="No"
+            android:textSize="24sp"
+            android:textColor="#212121"
+            android:backgroundTint="#FFA726"
+            android:layout_weight="1"
+            android:layout_marginStart="32dp"/>
+    </LinearLayout>
+
+    <!-- Calibrate gomb: extra margin minden irányban -->
+    <Button
+        android:id="@+id/btnCali"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:text="Calibrate"
+        android:textSize="24sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#1976D2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="48dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginTop="64dp"
+        app:layout_constraintTop_toBottomOf="@id/buttonsLayout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="64dp"/>
+
+    <Spinner
+        android:id="@+id/spnDevices"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/btnConnect"
+        app:layout_constraintTop_toBottomOf="@+id/buttonCalibrate"
+        app:layout_constraintVertical_bias="0.0"
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="UnknownId" />
+
+    <Button
+        android:id="@+id/btnConnect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1976D2"
+        android:text="Connect"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
