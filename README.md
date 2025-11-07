@@ -6,27 +6,27 @@
 ### The team
 #### Alicia Alonso
 ##### PhD Neuroscience
-> Universidad Miguel Hernández de Elche (Spain)
-> a.alonso@umh.es
-> Scientific Lead, Methodogy
+* Universidad Miguel Hernández de Elche (Spain)
+* a.alonso@umh.es
+* Scientific Lead, Methodogy
 
 #### Máté Majoros
 ##### BSc Computer Science
-> Debreceni Egyetem (Hungary)
-> matusz@mailbox.unideb.hu 
-> Software Engineer
+* Debreceni Egyetem (Hungary)
+* matusz@mailbox.unideb.hu 
+* Software Engineer
 
 #### Stephanie Pittara
 ##### MSc Molecular Techniques in Life Sciences
-> Karolinska Institutet (Sweden)
-> stephanie.pittara@stud.ki.se 
-> Research and Development Engineer
+* Karolinska Institutet (Sweden)
+* stephanie.pittara@stud.ki.se 
+* Research and Development Engineer
 
 #### Anna Skyrda
 ##### MSc Psychology
-> Rheinische Friedrich-Wilhelms-Universität Bonn (Germany)
-> s55askyr@uni-bonn.de 
-> Research and Development Engineer, Presentatiopn Manager
+* Rheinische Friedrich-Wilhelms-Universität Bonn (Germany)
+* s55askyr@uni-bonn.de 
+* Research and Development Engineer, Presentatiopn Manager
 
 ---
 
