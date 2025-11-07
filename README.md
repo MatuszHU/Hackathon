@@ -53,3 +53,10 @@ Alexithymia is a condition marked by difficulties in identifying and describing 
 ## Application
 
 This application diretly connects to a Unicorn Hybrid Black BCI device and reads signals from the frontal lobe. It enables the user after calibration to read their Alpha, Beta and Delta Brainwaves, and from that derive their emotianal state.
+
+![Logo](mock1.jpg)
+![Log in](mock2.jpg)
+![Stay Still](mock3.jpg)
+![Countdown](mock4.jpg)
+![Result](mock5.jpg)
+![Analyze](mock6.jpg)
